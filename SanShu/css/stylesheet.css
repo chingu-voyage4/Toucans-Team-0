@@ -1,0 +1,72 @@
+*{
+	list-style-type: none;
+
+
+}
+ul.collapse
+{
+	  border-color: coral;
+
+		border-image-source: url(../Img/lace-bottom.png);
+    border-image-repeat: repeat;
+}
+
+#myNavbar a
+{
+	color: #626262;
+	text-decoration:none;
+	style:none;
+	font-family: Montserrat-Light,sans-serif;
+	font-style: normal;
+}
+#myNavbar a:hover
+{
+	color: #ffa8b2;
+}
+
+	#Menu-Img-Div
+	{
+		width:100%;
+		height: 60vh;
+		position: relative;
+    top: 50px;
+		background:url(../Img/menu-header.jpg) no-repeat center center;
+	  background-size:contain;
+
+	}
+#Center-menu-div
+{
+	position: relative;
+	z-index: 10;
+	width: 60vw;
+	height:30vh;
+	background-color: #ffffff;
+	padding: 5px;
+	text-align: center;
+	left:20%;
+	top:-50px;;
+}
+#Center-menu-div h1
+{
+	margin:10px;
+	padding:10px;
+	height: 15vh;
+	border-top:3px dashed rgb(176,223,233);
+	border-left: 3px dashed rgb(176,223,233);
+	border-right: 3px dashed rgb(176,223,233);
+	font-family: Montserrat-Light,sans-serif;
+	font-style: oblique;
+	color: #626262;
+
+}
+
+
+
+
+	/*This code helps in getting lace image */
+/*	{
+		position:relative;
+		top:35px;
+		background-repeat: repeat-x;
+
+	}*/

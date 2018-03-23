@@ -1,16 +1,15 @@
 *{
 	list-style-type: none;
-
-
 }
-ul.collapse
+.navbar
 {
 	  border-color: coral;
-
 		border-image-source: url(../Img/lace-bottom.png);
     border-image-repeat: repeat;
 }
-
+#myNavbar ul li{
+	padding: 20px;
+}
 #myNavbar a
 {
 	color: #626262;

@@ -51,14 +51,27 @@ ul.collapse
 	margin:10px;
 	padding:10px;
 	height: 15vh;
-	border-top:3px dashed rgb(176,223,233);
-	border-left: 3px dashed rgb(176,223,233);
-	border-right: 3px dashed rgb(176,223,233);
+	border-top:2px dashed rgb(176,223,233);
+	border-left: 2px dashed rgb(176,223,233);
+	border-right: 2px dashed rgb(176,223,233);
 	font-family: Montserrat-Light,sans-serif;
 	font-style: oblique;
 	color: #626262;
 
 }
+#Sub-Menu-Nav
+{
+	background-color: #ffffff;
+	border:none;
+
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+	text-align:center;
+
+}
+
 
 
 

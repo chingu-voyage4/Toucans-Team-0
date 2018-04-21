@@ -1,136 +1,238 @@
-*{
-	list-style-type: none;
 
+body{
 
+  font-family: Montserrat-Light,sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 1.42857143;
+  font-size: 1rem;
+	color:#626262;
+  text-align: center;
 }
-ul.collapse
+a{
+  text-decoration:none !important;
+	color:#626262;
+}
+.Font-Name
 {
-	  border-color: coral;
-
-		border-image-source: url(../Img/lace-bottom.png);
-    border-image-repeat: repeat;
+  font-family: 'Amaranth', sans-serif;
+  color: #626262;
+  text-align: center;
 }
-
-#myNavbar {
-	position: sticky;
-	top: -30px;
-	text-align: right;
-	height: 80px;
-	margin: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-#myNavbar aside {
-	width: 100%;
-	height: 30px;
-}
-
-#myNavbar ul {
-	width: 80%;
-	display: flex;
-	justify-content: space-around;
-}
-
-#myNavbar ul li {
-	margin: 1.5% 0% 0 0%;
-}
-
-#myNavbar ul li:nth-child(4) {
-	margin: 0.5% 4% 0 4%;
-}
-
-#myNavbar ul li a {
-	padding: 0px;
-}
-
-#myNavbar button {
-	border: 0;
-	padding: 5px;
-	margin: 0;
-	background: transparent;
-	color: #999;
-}
-
-#myNavbar a
+.container
 {
-	color: #626262;
-	text-decoration:none;
-	style:none;
-	font-family: Montserrat-Light,sans-serif;
-	font-style: normal;
-}
-#myNavbar a:hover
-{
-	color: #ffa8b2;
+  width: 80%;
+  padding: 20px 20px;
 }
 
-	#Menu-Img-Div
-	{
-		width:100%;
-		height: 60vh;
-		position: relative;
-    top: -70px;
-		background:url(../Img/menu-header.jpg) no-repeat center center;
-	  background-size:contain;
 
-	}
-#Center-menu-div
+#main-header
 {
-	position: relative;
-	z-index: 10;
-	width: 60vw;
-	height:30vh;
-	background-color: #ffffff;
-	padding: 5px;
-	text-align: center;
-	left:20%;
-	top:-180px;;
+  background-color: #ffffff;
+  border-image: url(../Img/lace-bottom.png) 30% round;
+  border-image-outset:0px 0px 10px 0px;
 }
-#Center-menu-div h1
+#logo-Img img
 {
-	margin:10px;
-	padding:10px;
-	height: 15vh;
-	border-top:2px dashed rgb(176,223,233);
-	border-left: 2px dashed rgb(176,223,233);
-	border-right: 2px dashed rgb(176,223,233);
-	font-family: Montserrat-Light,sans-serif;
-	font-style: oblique;
-	color: #626262;
+  height:125px;
+  width:125px;
+}
+
+.main-Div
+{
+  background:url(../Img/background.jpg) repeat;
+  padding:20px 20px;
 
 }
-#Sub-Menu-Nav
-{
-	background-color: #ffffff;
-	border:none;
 
+.btn-wrap
+{
+  padding:5px;
+  margin:5px;
+  text-align: center;
 }
-.navbar .navbar-nav {
+.btn-herichy
+{
+  color:#fff;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden;
   display: inline-block;
-  float: none;
-	text-align:center;
+  position: relative;
+  padding: 0 20px;
+  font-family: Montserrat-Bold;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  }
+  .btn-herichy>span {
+      display: block;
+      position: relative;
+      padding: 10px 5px;
+      background-color: #f6848d;
+    }
+  .btn-herichy>span:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: -20px;
+      width: 0;
+      height: 0;
+      margin-top: -40px;
+      border-width: 40px 0 40px 20px;
+      border-style: solid;
+      border-color: #f6848d;
+      border-left-color: transparent;
+  }
+  .btn-herichy>span:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 0;
+    height: 0;
+    margin-top: -40px;
+    border-width: 40px 20px 40px 0;
+    border-style: solid;
+    border-color: #f6848d;
+    border-right-color: transparent;
+}
+.btn-color-Blue>span
+{
+  background-color:#a4ebe4;
+}
+.btn-color-Blue>span:after
+{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 0;
+  height: 0;
+  margin-top: -40px;
+  border-width: 40px 20px 40px 0;
+  border-style: solid;
+  border-color: #a4ebe4;
+  border-right-color: transparent;
+
+}
+.btn-color-Blue>span:before
+{  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 0;
+  height: 0;
+  margin-top: -40px;
+  border-width: 40px 0 40px 20px;
+  border-style: solid;
+  border-color: #a4ebe4;
+  border-left-color: transparent;
 
 }
 
-#Cookie-div {
-	position: relative;
-	top: -180px;
+
+.btn-color-Yellow>span
+{
+  background-color: #ffd98a;
+}
+.btn-color-Yellow>span:after
+{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 0;
+  height: 0;
+  margin-top: -40px;
+  border-width: 40px 20px 40px 0;
+  border-style: solid;
+  border-color: #ffd98a;
+  border-right-color: transparent;
+
+}
+.btn-color-Yellow>span:before
+{
+  content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    margin-top: -40px;
+    border-width: 40px 0 40px 20px;
+    border-style: solid;
+    border-color: #ffd98a;
+    border-left-color: transparent;
+
+}
+.btn-herichy:hover
+{
+  color: #fff;
 }
 
-#Cookie-div .row {
-	width: 100%;
+.Option-Img
+{
+  padding: 10px 10px;
+}
+#order-giftcard-img
+{
+  height: 150px;
+}
+figcaption
+{
+
+  letter-spacing: .15px;
+  color: #a1a1a1;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Amaranth', sans-serif;
 }
 
+.MyNavbar li a
+{
+  padding:0 5px;
+  margin: 0 5px;
+  color: #626262;
 
+}
+.MyNavbar li a:hover
+{
+  color: #ffa4ab;
+}
+.In-Store-Arrow
+{
+  margin: 60px 0 0;
+    padding-bottom: 300px;
+    background: url(../Img/table.png) no-repeat 50% 100%;
+}
 
-
-
-	/*This code helps in getting lace image */
-/*	{
-		position:relative;
-		top:35px;
-		background-repeat: repeat-x;
-
-	}*/
+.In-Store-Arrow a
+{
+  display: inline-block;
+    padding-right: 40px;
+    font-family: 'Montserrat-Regular',sans-serif;
+    color: #f6848d;
+    background: url(../Img/arrow-right.png) no-repeat 100% 50%;
+}
+.InStore-Arrow-data h3
+{
+  text-align: left;
+}
+.InStore-Arrow-data
+{
+  padding-left:400px;
+  text-align:left;
+  float: left;
+  margin : 10px;
+}

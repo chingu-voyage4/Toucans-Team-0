@@ -11,6 +11,48 @@ ul.collapse
     border-image-repeat: repeat;
 }
 
+#myNavbar {
+	position: sticky;
+	top: -30px;
+	text-align: right;
+	height: 80px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#myNavbar aside {
+	width: 100%;
+	height: 30px;
+}
+
+#myNavbar ul {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#myNavbar ul li {
+	margin: 1.5% 0% 0 0%;
+}
+
+#myNavbar ul li:nth-child(4) {
+	margin: 0.5% 4% 0 4%;
+}
+
+#myNavbar ul li a {
+	padding: 0px;
+}
+
+#myNavbar button {
+	border: 0;
+	padding: 5px;
+	margin: 0;
+	background: transparent;
+	color: #999;
+}
+
 #myNavbar a
 {
 	color: #626262;
@@ -29,7 +71,7 @@ ul.collapse
 		width:100%;
 		height: 60vh;
 		position: relative;
-    top: 50px;
+    top: -70px;
 		background:url(../Img/menu-header.jpg) no-repeat center center;
 	  background-size:contain;
 
@@ -44,7 +86,7 @@ ul.collapse
 	padding: 5px;
 	text-align: center;
 	left:20%;
-	top:-50px;;
+	top:-180px;;
 }
 #Center-menu-div h1
 {
@@ -70,6 +112,15 @@ ul.collapse
   float: none;
 	text-align:center;
 
+}
+
+#Cookie-div {
+	position: relative;
+	top: -180px;
+}
+
+#Cookie-div .row {
+	width: 100%;
 }
 
 
